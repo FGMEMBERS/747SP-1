@@ -1,0 +1,53 @@
+<?xml version="1.0"?> <PropertyList>
+
+<path>Cockpit.ac</path> 
+
+	<!-- Cockpit -->
+
+	<model>
+		<name>PANEL</name>
+		<path>Aircraft/747SP/Models/Cockpit/panel.xml</path>
+		<offsets>
+		  <x-m> -19.3 </x-m>
+		  <y-m> 0 </y-m>
+		  <z-m> 2.62 </z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>YOKES</name>
+		<path>Aircraft/747SP/Models/Cockpit/Yokes/yokes.xml</path>
+		<offsets>
+		  <x-m> -0.35 </x-m>
+		  <y-m> 0 </y-m>
+		  <z-m> 1.98 </z-m>
+		</offsets>
+	</model>
+	
+	<!-- Instruments -->
+	<!-- PFD -->
+	<model>
+		<name>AI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments-EFIS/PFD/PFD.xml</path>
+		<offsets>
+		  <x-m> -19.297 </x-m>
+		  <y-m> -0.48 </y-m>
+		  <z-m> 2.785 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- MFD -->
+	<model>
+		<name>AI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments-EFIS/MFD/MFD.xml</path>
+		<offsets>
+		  <x-m> -19.297 </x-m>
+		  <y-m> -0.23 </y-m>
+		  <z-m> 2.785 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+
+
+</PropertyList>

@@ -1,6 +1,100 @@
 <?xml version="1.0"?> <PropertyList>
 
- <path>Cockpit.ac</path> 
+<path>Cockpit.ac</path> 
 
+	<!-- Cockpit -->
 
+	<model>
+		<name>PANEL</name>
+		<path>Aircraft/747SP/Models/Cockpit/panel.xml</path>
+		<offsets>
+		  <x-m> -19.3 </x-m>
+		  <y-m> 0 </y-m>
+		  <z-m> 2.62 </z-m>
+		</offsets>
+	</model>
+
+	<model>
+		<name>YOKES</name>
+		<path>Aircraft/747SP/Models/Cockpit/Yokes/yokes.xml</path>
+		<offsets>
+		  <x-m> -0.35 </x-m>
+		  <y-m> 0 </y-m>
+		  <z-m> 1.98 </z-m>
+		</offsets>
+	</model>
+	
+	<!-- Instruments -->
+	<!-- Attitude -->
+	<model>
+		<name>AI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/AI/AI.xml</path>
+		<offsets>
+		  <x-m> -19.308 </x-m>
+		  <y-m> -0.466 </y-m>
+		  <z-m> 2.875 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- EHSI -->
+	<model>
+		<name>EHSI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/HSI/EHSI.xml</path>
+		<offsets>
+		  <x-m> -19.295 </x-m>
+		  <y-m> -0.466 </y-m>
+		  <z-m> 2.74 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Airspeed -->
+		<model>
+		<name>ASI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/ASI/ASI.xml</path>
+		<offsets>
+		  <x-m> -19.30 </x-m>
+		  <y-m> -0.59 </y-m>
+		  <z-m> 2.863 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Altimiter -->
+		<model>
+		<name>ASI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/ALT/ALT.xml</path>
+		<offsets>
+		  <x-m> -19.30 </x-m>
+		  <y-m> -0.346 </y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Vertical Speed -->
+		<model>
+		<name>VSI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/VSI/VSI.xml</path>
+		<offsets>
+		  <x-m> -19.295 </x-m>
+		  <y-m> -0.346 </y-m>
+		  <z-m> 2.76 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+ 
+ 	<!-- RMI -->
+		<model>
+		<name>VSI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/RMI/RMI.xml</path>
+		<offsets>
+		  <x-m> -19.29 </x-m>
+		  <y-m> -0.59 </y-m>
+		  <z-m> 2.765 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+ 
 </PropertyList>

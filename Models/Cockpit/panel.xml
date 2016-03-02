@@ -1,0 +1,12 @@
+<?xml version="1.0" ?> 
+
+<!-- 747SP pilots panel.
+
+
+     Auto smoothed (30 degrees).
+-->
+
+<PropertyList> 
+ <path>panel.ac</path> 
+
+</PropertyList>
