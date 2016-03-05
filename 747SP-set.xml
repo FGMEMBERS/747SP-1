@@ -8,7 +8,7 @@
 	<sim include="Nasal/747SP-sim.xml">
 
 		<description>Boeing 747SP (JT9D engines)</description>
-        <author>Joshua Davidson (it0uchpods/411), Martien van der P.</author>
+        <author>Joshua Davidson (it0uchpods/411), Martien van der P (3D), Alex Iannuzzi (Liveries)</author>
 		<status>alpha</status>
 		<aircraft-version>0.01</aircraft-version>
 
@@ -69,7 +69,6 @@
 
 		<help include="help.xml"/>
 		
-		<!-- Entradas para o menu de apoio para controle da aeronave -->
 		<menubar>
 			<default>
 				<menu n="100">
@@ -83,73 +82,6 @@
 						</binding>
 					</item>
 					<item>
-						<label>Lights</label>
-						<binding>
-							<command>nasal</command>
-							<script>
-							  var dlg = gui.Dialog.new("/sim/gui/dialogs/lights-config/dialog", "Aircraft/747SP/Dialogs/747SP-lights-dialog.xml");
-				       </script>
-						</binding>
-						<binding>
-							<command>dialog-show</command>
-							<dialog-name>lightcontrol</dialog-name>
-						</binding>
-					</item>
-					<item>
-						<label>Engines</label>
-						<binding>
-							<command>nasal</command>
-							<script>
-							  var dlg = gui.Dialog.new("/sim/gui/dialogs/engines-config/dialog", "Aircraft/747SP/Dialogs/747SP-engines-dialog.xml");
-				       </script>
-						</binding>
-						<binding>
-							<command>dialog-show</command>
-							<dialog-name>enginecontrol</dialog-name>
-						</binding>
-					</item>
-					
-					<item>
-						<label>Communication</label>
-						<binding>
-							<command>nasal</command>
-							<script>
-							  var dlg = gui.Dialog.new("/sim/gui/dialogs/communication-config/dialog", "Aircraft/747SP/Dialogs/747SP-comunication-dialog.xml");
-				       </script>
-						</binding>
-						<binding>
-							<command>dialog-show</command>
-							<dialog-name>communication</dialog-name>
-						</binding>
-					</item>
-
-					<item>
-						<label>Message system</label>
-						<binding>
-							<command>nasal</command>
-							<script>
-							  var dlg = gui.Dialog.new("/sim/gui/dialogs/message-config/dialog", "Aircraft/747SP/Dialogs/747SP-message-dialog.xml");
-				       </script>
-						</binding>
-						<binding>
-							<command>dialog-show</command>
-							<dialog-name>messagecontrol</dialog-name>
-						</binding>
-					</item>
-					<item>
-						<label>Effects</label>
-						<binding>
-							<command>nasal</command>
-							<script>
-							  var dlg = gui.Dialog.new("/sim/gui/dialogs/effects-config/dialog", "Aircraft/747SP/Dialogs/747SP-effects-dialog.xml");
-				       </script>
-						</binding>
-						<binding>
-							<command>dialog-show</command>
-							<dialog-name>effectscontrol</dialog-name>
-						</binding>
-					</item>
-					<item>
 						<label>Pushback</label>
 						<binding>
 							<command>nasal</command>
@@ -160,20 +92,6 @@
 						<binding>
 							<command>dialog-show</command>
 							<dialog-name>pushback</dialog-name>
-						</binding>
-					</item>
-					<item>
-						<label>Ground Service</label>
-						<binding>
-							<command>nasal</command>
-							<script>groundservice.serviceonoff()</script>
-						</binding>
-					</item>
-					<item>
-						<label>Ground proximity warning system (GPWS)</label>
-						<binding>
-							<command>property-toggle</command>
-							<property>instrumentation/mk-viii/servicable</property>
 						</binding>
 					</item>
 				</menu>

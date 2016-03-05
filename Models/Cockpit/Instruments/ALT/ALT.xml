@@ -20,10 +20,10 @@
     <object-name>inhg03</object-name>
     <object-name>inhg04</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop>
-      <red>   1.0 </red>
-      <green> 0.4 </green>
-      <blue>  0.2 </blue>
+      <!--factor-prop>/systems/electrical/outputs/instrument-lights</factor-prop-->
+      <red>   0.6 </red>
+      <green> 0.6 </green>
+      <blue>  0.6 </blue>
     </emission>
   </animation>
 
@@ -33,9 +33,9 @@
     <object-name>BaroKnob</object-name>
     <emission>
       <factor-prop>/controls/lighting/panel-norm</factor-prop>
-      <red>   0.2 </red>
-      <green> 0.2 </green>
-      <blue>  0.2 </blue>
+      <red>   0.7 </red>
+      <green> 0.7 </green>
+      <blue>  0.7 </blue>
     </emission>
   </animation>
 

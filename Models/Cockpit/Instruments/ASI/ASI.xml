@@ -12,11 +12,15 @@
 	<animation>
 		<type>material</type>
 		<object-name>Face</object-name>
+		<object-name>Needle</object-name>
+		<object-name>Mach.1</object-name>
+		<object-name>Mach.01</object-name>
+		<object-name>Mach.001</object-name>
 		<emission>
 			<red>0.5</red>
 			<green>0.5</green>
-			<blue>0.273</blue>
-			<factor-prop>controls/lighting/instruments-norm</factor-prop>
+			<blue>0.5</blue>
+			<!--factor-prop>controls/lighting/instruments-norm</factor-prop-->
 		</emission>
 	</animation>
 

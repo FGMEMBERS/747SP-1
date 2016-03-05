@@ -42,10 +42,10 @@
 		<name>EHSI</name>
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/HSI/EHSI.xml</path>
 		<offsets>
-		  <x-m> -19.295 </x-m>
+		  <x-m> -19.285 </x-m>
 		  <y-m> -0.466 </y-m>
-		  <z-m> 2.74 </z-m>
-		  <pitch-deg>-6</pitch-deg>
+		  <z-m> 2.733 </z-m>
+		  <pitch-deg>-7</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -55,7 +55,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/ASI/ASI.xml</path>
 		<offsets>
 		  <x-m> -19.30 </x-m>
-		  <y-m> -0.59 </y-m>
+		  <y-m> -0.584 </y-m>
 		  <z-m> 2.863 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -66,8 +66,8 @@
 		<name>ASI</name>
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/ALT/ALT.xml</path>
 		<offsets>
-		  <x-m> -19.30 </x-m>
-		  <y-m> -0.346 </y-m>
+		  <x-m> -19.306 </x-m>
+		  <y-m> -0.35 </y-m>
 		  <z-m> 2.855 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
