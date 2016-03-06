@@ -1,0 +1,21 @@
+<?xml version="1.0"?> 
+<PropertyList> 
+
+<sim> 
+ <model> 
+  <livery> 
+   <name type="string">United Battle Ship Grey</name> 
+   <texture>Liveries/UAL.png</texture>
+  </livery>
+  <wings>
+   <name type="string">United Battle Ship Grey</name>
+   <texture>Liveries/UAL_wings.png</texture>
+  </wings>
+  <engines>
+   <name type="string">United Battle Ship Grey</name>
+   <texture>UAL_JT9D7.png</texture>
+  </engines> 
+ </model> 
+</sim> 
+
+</PropertyList> 
