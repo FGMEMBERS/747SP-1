@@ -40,7 +40,7 @@
 
 <PropertyList>
 
- <path>747SP.ac</path>
+ <path>747SP-SOFIA.ac</path>
 
  <offsets>
    <x-m>24.3</x-m>             <!-- VRP at nose -->
@@ -50,7 +50,7 @@
 	<!-- Livery System -->
     <nasal>
         <load>
-            var livery_update = aircraft.livery_update.new("Aircraft/747SP/Models/Liveries-RB211", 10);
+            var livery_update = aircraft.livery_update.new("Aircraft/747SP/Models/Liveries-SOFIA", 10);
         </load>
 
         <unload>
@@ -230,7 +230,7 @@
 
  <model>
 	<name>Engines</name>
-	<path>Aircraft/747SP/Models/RB211.xml</path>
+	<path>Aircraft/747SP/Models/JT9D7.xml</path>
 	<offsets>
 		<x-m>-5.5875</x-m>
 		<y-m>0</y-m>
@@ -2862,4 +2862,4 @@
  </animation>
 
 
-</PropertyList>
+ <animation>  <type>pick</type>  <object-name>SlidingDoor</object-name>  <object-name>SlidingDoorInside</object-name>  <visible>true</visible>  <action>   <button>0</button>   <repeatable>false</repeatable>   <binding>    <command>nasal</command>    <script>doors.doorsystem.crewexport();</script>   </binding>  </action> </animation> <animation>  <type>rotate</type>  <object-name>SlidingDoor</object-name>  <object-name>SlidingDoorInside</object-name>  <property>/instrumentation/doors/crew/position-norm</property>  <interpolation>   <entry>    <ind>0.0</ind>    <dep>0.0</dep>   </entry>   <entry>    <ind>0.25</ind>    <dep>0</dep>   </entry>   <entry>    <ind>1</ind>    <dep>90.0</dep>   </entry>  </interpolation>  <center>   <x-m>0</x-m>   <y-m>0</y-m>   <z-m>0.58615</z-m>  </center>  <axis>   <x>-1</x>   <y>0</y>   <z>0</z>  </axis> </animation> </PropertyList>
