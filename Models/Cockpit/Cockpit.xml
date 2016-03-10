@@ -24,7 +24,7 @@
 		</offsets>
 	</model>
 	
-	<!-- Instruments -->
+	<!-- Captain's Instruments -->
 	<!-- Attitude -->
 	<model>
 		<name>AI</name>
@@ -63,11 +63,23 @@
 	
 	<!-- Altimiter -->
 		<model>
-		<name>ASI</name>
+		<name>ALT</name>
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/ALT/ALT.xml</path>
 		<offsets>
 		  <x-m> -19.306 </x-m>
 		  <y-m> -0.35 </y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Radio Altimiter -->
+		<model>
+		<name>RALT</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/RALT/RALT.xml</path>
+		<offsets>
+		  <x-m> -19.306 </x-m>
+		  <y-m> -0.26 </y-m>
 		  <z-m> 2.855 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -78,9 +90,9 @@
 		<name>VSI</name>
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/VSI/VSI.xml</path>
 		<offsets>
-		  <x-m> -19.295 </x-m>
-		  <y-m> -0.346 </y-m>
-		  <z-m> 2.76 </z-m>
+		  <x-m> -19.287 </x-m>
+		  <y-m> -0.35 </y-m>
+		  <z-m> 2.75 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
 	</model>
@@ -91,10 +103,279 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/RMI/RMI.xml</path>
 		<offsets>
 		  <x-m> -19.29 </x-m>
-		  <y-m> -0.59 </y-m>
-		  <z-m> 2.765 </z-m>
+		  <y-m> -0.584 </y-m>
+		  <z-m> 2.755 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
 	</model>
+	
+	<!-- Standby Attitude -->
+		<model>
+		<name>STBYAI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/STBYAI/STBYAI.xml</path>
+		<offsets>
+		  <x-m> -19.293 </x-m>
+		  <y-m> -0.257 </y-m>
+		  <z-m> 2.75 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- Center Panel -->
+	<!-- Gear Lever -->
+		<model>
+		<name>GEARLVR</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/GEARLVR/GEARLVR.xml</path>
+		<offsets>
+		  <x-m> -19.293 </x-m>
+		  <y-m> 0.06 </y-m>
+		  <z-m> 2.75 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- Engine 1-->
+	<!-- EPR 1 -->
+		<model>
+		<name>EPR1</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR1.xml</path>
+		<offsets>
+		  <x-m> -19.306 </x-m>
+		  <y-m> -0.1 </y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+	
+	<!-- N1 1 -->
+		<model>
+		<name>N11</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N11.xml</path>
+		<offsets>
+		  <x-m> -19.3 </x-m>
+		  <y-m> -0.1 </y-m>
+		  <z-m> 2.795 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- EGT 1 -->
+		<model>
+		<name>EGT1</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT1.xml</path>
+		<offsets>
+		  <x-m> -19.293 </x-m>
+		  <y-m> -0.1 </y-m>
+		  <z-m> 2.735 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- FF 1 -->
+		<model>
+		<name>FF1</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF1.xml</path>
+		<offsets>
+		  <x-m> -19.285 </x-m>
+		  <y-m> -0.1 </y-m>
+		  <z-m> 2.675 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- REV 1 -->
+		<model>
+		<name>EPR1</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV1.xml</path>
+		<offsets>
+		  <x-m> -19.31 </x-m>
+		  <y-m> -0.1 </y-m>
+		  <z-m> 2.90 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- Engine 2 -->
+	<!-- EPR 2 -->
+		<model>
+		<name>EPR2</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR2.xml</path>
+		<offsets>
+		  <x-m> -19.306 </x-m>
+		  <y-m> -0.04 </y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- N1 2 -->
+		<model>
+		<name>N12</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N12.xml</path>
+		<offsets>
+		  <x-m> -19.3 </x-m>
+		  <y-m> -0.04 </y-m>
+		  <z-m> 2.795 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- EGT 2 -->
+		<model>
+		<name>EGT2</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT2.xml</path>
+		<offsets>
+		  <x-m> -19.293 </x-m>
+		  <y-m> -0.04 </y-m>
+		  <z-m> 2.735 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- FF 2 -->
+		<model>
+		<name>FF2</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF2.xml</path>
+		<offsets>
+		  <x-m> -19.285 </x-m>
+		  <y-m> -0.04 </y-m>
+		  <z-m> 2.675 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- REV 2 -->
+		<model>
+		<name>EPR2</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV2.xml</path>
+		<offsets>
+		  <x-m> -19.31 </x-m>
+		  <y-m> -0.04 </y-m>
+		  <z-m> 2.90 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- Engine 3 -->
+	<!-- EPR 3 -->
+		<model>
+		<name>EPR3</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR3.xml</path>
+		<offsets>
+		  <x-m> -19.306 </x-m>
+		  <y-m> 0.02 </y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- N1 3 -->
+		<model>
+		<name>N13</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N13.xml</path>
+		<offsets>
+		  <x-m> -19.3 </x-m>
+		  <y-m> 0.02 </y-m>
+		  <z-m> 2.795 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- EGT 3 -->
+		<model>
+		<name>EGT3</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT3.xml</path>
+		<offsets>
+		  <x-m> -19.293 </x-m>
+		  <y-m> 0.02 </y-m>
+		  <z-m> 2.735 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- FF 3 -->
+		<model>
+		<name>FF3</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF3.xml</path>
+		<offsets>
+		  <x-m> -19.285 </x-m>
+		  <y-m> 0.02 </y-m>
+		  <z-m> 2.675 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- REV 3 -->
+		<model>
+		<name>EPR3</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV3.xml</path>
+		<offsets>
+		  <x-m> -19.31 </x-m>
+		  <y-m> 0.02 </y-m>
+		  <z-m> 2.90 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- Engine 4 -->
+	<!-- EPR 4 -->
+		<model>
+		<name>EPR4</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR4.xml</path>
+		<offsets>
+		  <x-m> -19.306 </x-m>
+		  <y-m> 0.08 </y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- N1 4 -->
+		<model>
+		<name>N14</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N14.xml</path>
+		<offsets>
+		  <x-m> -19.3 </x-m>
+		  <y-m> 0.08 </y-m>
+		  <z-m> 2.795 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- EGT 4 -->
+		<model>
+		<name>EGT4</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT4.xml</path>
+		<offsets>
+		  <x-m> -19.293 </x-m>
+		  <y-m> 0.08 </y-m>
+		  <z-m> 2.735 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- FF 4 -->
+		<model>
+		<name>FF4</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF4.xml</path>
+		<offsets>
+		  <x-m> -19.285 </x-m>
+		  <y-m> 0.08 </y-m>
+		  <z-m> 2.675 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+		
+	<!-- REV 4 -->
+		<model>
+		<name>EPR4</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV4.xml</path>
+		<offsets>
+		  <x-m> -19.31 </x-m>
+		  <y-m> 0.08 </y-m>
+		  <z-m> 2.90 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
  
 </PropertyList>

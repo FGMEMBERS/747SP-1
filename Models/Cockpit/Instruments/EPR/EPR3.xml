@@ -2,7 +2,7 @@
 
 <PropertyList>
 
-  <path>n1.ac</path>
+  <path>epr.ac</path>
 
   <animation>
     <object-name>Bezel</object-name>
@@ -20,10 +20,10 @@
     <object-name>Face</object-name>
     <object-name>needle</object-name>
     <emission>
-      <factor-prop>/systems/electrical/outputs/eng-lights</factor-prop>
-      <red>   1.0 </red>
-      <green> 0.4 </green>
-      <blue>  0.2 </blue>
+      <!--factor-prop>/systems/electrical/outputs/eng-lights</factor-prop-->
+      <red>   0.5 </red>
+      <green> 0.5 </green>
+      <blue>  0.5 </blue>
     </emission>
   </animation>
 
@@ -47,10 +47,10 @@
   <animation>
     <type>rotate</type>
     <object-name>needle</object-name>
-    <property>/engines/engine[1]/n1</property>
+    <property>/engines/engine[2]/epr</property>
     <interpolation>
-      <entry><ind>  0 </ind><dep>   0 </dep></entry>
-      <entry><ind> 80 </ind><dep> 236 </dep></entry>
+      <entry><ind>0</ind><dep>0</dep></entry>
+      <entry><ind>2.0</ind><dep>236</dep></entry>
     </interpolation>
     <axis>
       <x> -1 </x>
@@ -62,7 +62,7 @@
   <animation>
     <type>textranslate</type>
     <object-name>trb.1</object-name>
-    <property>/engines/engine[1]/n1</property>
+    <property>/engines/engine[2]/epr</property>
     <factor>0.001</factor>
     <step>100</step>
     <axis>
@@ -75,7 +75,7 @@
   <animation>
     <type>textranslate</type>
     <object-name>trb.2</object-name>
-    <property>/engines/engine[1]/n1</property>
+    <property>/engines/engine[2]/epr</property>
     <factor>0.01</factor>
     <step>10</step>
     <axis>
@@ -88,7 +88,7 @@
   <animation>
     <type>textranslate</type>
     <object-name>trb.3</object-name>
-    <property>/engines/engine[1]/n1</property>
+    <property>/engines/engine[2]/epr</property>
     <factor>0.1</factor>
     <step>1</step>
     <axis>
@@ -101,7 +101,7 @@
   <animation>
     <type>textranslate</type>
     <object-name>trb.4</object-name>
-    <property>/engines/engine[1]/n1</property>
+    <property>/engines/engine[2]/epr</property>
     <factor>1.0</factor>
     <step>0.1</step>
     <axis>
