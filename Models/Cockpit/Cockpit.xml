@@ -24,6 +24,17 @@
 		</offsets>
 	</model>
 	
+	<!-- Pedestal -->
+	<model>
+		<name>PEDESTAL</name>
+		<path>Aircraft/747SP/Models/Cockpit/Pedestal/Pedestal.xml</path>
+		<offsets>
+		  <x-m> -0.3 </x-m>
+		  <y-m> 0.01 </y-m>
+		  <z-m> 2.0 </z-m>
+		</offsets>
+	</model>
+	
 	<!-- Captain's Instruments -->
 	<!-- Attitude -->
 	<model>
@@ -109,14 +120,111 @@
 		</offsets>
 	</model>
 	
-	<!-- Standby Attitude -->
+	<!-- Clock -->
 		<model>
-		<name>STBYAI</name>
-		<path>Aircraft/747SP/Models/Cockpit/Instruments/STBYAI/STBYAI.xml</path>
+		<name>CLOCK</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/CLOCK/CLOCK.xml</path>
 		<offsets>
 		  <x-m> -19.293 </x-m>
-		  <y-m> -0.257 </y-m>
+		  <y-m> -0.255 </y-m>
+		  <z-m> 2.755 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
+
+	<!-- First Officer's Instruments -->
+	<!-- Attitude -->
+	<model>
+		<name>AI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/AI/AI.xml</path>
+		<offsets>
+		  <x-m> -19.308 </x-m>
+		  <y-m> 0.466 </y-m>
+		  <z-m> 2.875 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- EHSI -->
+	<model>
+		<name>EHSI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/HSI/EHSI.xml</path>
+		<offsets>
+		  <x-m> -19.285 </x-m>
+		  <y-m> 0.466 </y-m>
+		  <z-m> 2.733 </z-m>
+		  <pitch-deg>-7</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Airspeed -->
+		<model>
+		<name>ASI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/ASI/ASI.xml</path>
+		<offsets>
+		  <x-m> -19.30 </x-m>
+		  <y-m> 0.35 </y-m>
+		  <z-m> 2.863 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Altimiter -->
+		<model>
+		<name>ALT</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/ALT/ALT.xml</path>
+		<offsets>
+		  <x-m> -19.306 </x-m>
+		  <y-m> 0.584</y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Radio Altimiter -->
+		<model>
+		<name>RALT</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/RALT/RALT.xml</path>
+		<offsets>
+		  <x-m> -19.306 </x-m>
+		  <y-m> 0.674 </y-m>
+		  <z-m> 2.855 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Vertical Speed -->
+		<model>
+		<name>VSI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/VSI/VSI.xml</path>
+		<offsets>
+		  <x-m> -19.287 </x-m>
+		  <y-m> 0.584 </y-m>
 		  <z-m> 2.75 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+ 
+ 	<!-- RMI -->
+		<model>
+		<name>VSI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/RMI/RMI.xml</path>
+		<offsets>
+		  <x-m> -19.29 </x-m>
+		  <y-m> 0.35 </y-m>
+		  <z-m> 2.755 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!-- Clock -->
+		<model>
+		<name>CLOCK</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/CLOCK/CLOCK.xml</path>
+		<offsets>
+		  <x-m> -19.293 </x-m>
+		  <y-m> 0.679 </y-m>
+		  <z-m> 2.755 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
 		</model>
@@ -133,6 +241,18 @@
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
 		</model>
+
+	<!-- Standby Attitude -->
+		<model>
+		<name>STBYAI</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/STBYAI/STBYAI.xml</path>
+		<offsets>
+		  <x-m> -19.30 </x-m>
+		  <y-m> -0.17 </y-m>
+		  <z-m> 2.88 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+		</model>
 		
 	<!-- Engine 1-->
 	<!-- EPR 1 -->
@@ -141,7 +261,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR1.xml</path>
 		<offsets>
 		  <x-m> -19.306 </x-m>
-		  <y-m> -0.1 </y-m>
+		  <y-m> -0.08 </y-m>
 		  <z-m> 2.855 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -153,7 +273,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N11.xml</path>
 		<offsets>
 		  <x-m> -19.3 </x-m>
-		  <y-m> -0.1 </y-m>
+		  <y-m> -0.08 </y-m>
 		  <z-m> 2.795 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -165,7 +285,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT1.xml</path>
 		<offsets>
 		  <x-m> -19.293 </x-m>
-		  <y-m> -0.1 </y-m>
+		  <y-m> -0.08 </y-m>
 		  <z-m> 2.735 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -177,7 +297,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF1.xml</path>
 		<offsets>
 		  <x-m> -19.285 </x-m>
-		  <y-m> -0.1 </y-m>
+		  <y-m> -0.08 </y-m>
 		  <z-m> 2.675 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -189,7 +309,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV1.xml</path>
 		<offsets>
 		  <x-m> -19.31 </x-m>
-		  <y-m> -0.1 </y-m>
+		  <y-m> -0.08 </y-m>
 		  <z-m> 2.90 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -202,7 +322,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR2.xml</path>
 		<offsets>
 		  <x-m> -19.306 </x-m>
-		  <y-m> -0.04 </y-m>
+		  <y-m> -0.02 </y-m>
 		  <z-m> 2.855 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -214,7 +334,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N12.xml</path>
 		<offsets>
 		  <x-m> -19.3 </x-m>
-		  <y-m> -0.04 </y-m>
+		  <y-m> -0.02 </y-m>
 		  <z-m> 2.795 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -226,7 +346,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT2.xml</path>
 		<offsets>
 		  <x-m> -19.293 </x-m>
-		  <y-m> -0.04 </y-m>
+		  <y-m> -0.02 </y-m>
 		  <z-m> 2.735 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -238,7 +358,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF2.xml</path>
 		<offsets>
 		  <x-m> -19.285 </x-m>
-		  <y-m> -0.04 </y-m>
+		  <y-m> -0.02 </y-m>
 		  <z-m> 2.675 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -250,7 +370,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV2.xml</path>
 		<offsets>
 		  <x-m> -19.31 </x-m>
-		  <y-m> -0.04 </y-m>
+		  <y-m> -0.02 </y-m>
 		  <z-m> 2.90 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -263,7 +383,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR3.xml</path>
 		<offsets>
 		  <x-m> -19.306 </x-m>
-		  <y-m> 0.02 </y-m>
+		  <y-m> 0.04 </y-m>
 		  <z-m> 2.855 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -275,7 +395,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N13.xml</path>
 		<offsets>
 		  <x-m> -19.3 </x-m>
-		  <y-m> 0.02 </y-m>
+		  <y-m> 0.04 </y-m>
 		  <z-m> 2.795 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -287,7 +407,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT3.xml</path>
 		<offsets>
 		  <x-m> -19.293 </x-m>
-		  <y-m> 0.02 </y-m>
+		  <y-m> 0.04 </y-m>
 		  <z-m> 2.735 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -299,7 +419,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF3.xml</path>
 		<offsets>
 		  <x-m> -19.285 </x-m>
-		  <y-m> 0.02 </y-m>
+		  <y-m> 0.04 </y-m>
 		  <z-m> 2.675 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -311,7 +431,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV3.xml</path>
 		<offsets>
 		  <x-m> -19.31 </x-m>
-		  <y-m> 0.02 </y-m>
+		  <y-m> 0.04 </y-m>
 		  <z-m> 2.90 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -324,7 +444,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EPR/EPR4.xml</path>
 		<offsets>
 		  <x-m> -19.306 </x-m>
-		  <y-m> 0.08 </y-m>
+		  <y-m> 0.1 </y-m>
 		  <z-m> 2.855 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -336,7 +456,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/N1/N14.xml</path>
 		<offsets>
 		  <x-m> -19.3 </x-m>
-		  <y-m> 0.08 </y-m>
+		  <y-m> 0.1 </y-m>
 		  <z-m> 2.795 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -348,7 +468,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/EGT/EGT4.xml</path>
 		<offsets>
 		  <x-m> -19.293 </x-m>
-		  <y-m> 0.08 </y-m>
+		  <y-m> 0.1 </y-m>
 		  <z-m> 2.735 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -360,7 +480,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/FF/FF4.xml</path>
 		<offsets>
 		  <x-m> -19.285 </x-m>
-		  <y-m> 0.08 </y-m>
+		  <y-m> 0.1 </y-m>
 		  <z-m> 2.675 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
@@ -372,7 +492,7 @@
 		<path>Aircraft/747SP/Models/Cockpit/Instruments/REV/REV4.xml</path>
 		<offsets>
 		  <x-m> -19.31 </x-m>
-		  <y-m> 0.08 </y-m>
+		  <y-m> 0.1 </y-m>
 		  <z-m> 2.90 </z-m>
 		  <pitch-deg>-6</pitch-deg>
 		</offsets>
