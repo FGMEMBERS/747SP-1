@@ -1,6 +1,6 @@
 AC3Db
 MATERIAL "ac3dmat12" rgb 0.266667 0.266667 0.266667  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
-MATERIAL "ac3dmat13" rgb 0.533333 0.533333 0.533333  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 128  trans 0
+MATERIAL "ac3dmat14" rgb 0.392157 0.392157 0.392157  amb 0.2 0.2 0.2  emis 0 0 0  spec 0.2 0.2 0.2  shi 0  trans 0
 MATERIAL "Gaugelight.002" rgb 0.745098 0.745098 0.745098  amb 0.694118 0.694118 0.694118  emis 0.2 0.2 0.2  spec 0.235294 0.235294 0.235294  shi 0  trans 0
 MATERIAL "Gaugemetal.007" rgb 0.658824 0.658824 0.658824  amb 0.392157 0.392157 0.392157  emis 0.2 0.2 0.2  spec 0.458824 0.458824 0.458824  shi 0  trans 0
 OBJECT world
