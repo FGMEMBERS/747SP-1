@@ -1,0 +1,17 @@
+<?xml version="1.0"?> 
+<PropertyList> 
+
+<sim> 
+ <model> 
+  <livery> 
+   <name type="string">PAN AM</name> 
+   <texture>Liveries/PAN.png</texture>
+  </livery>
+  <wings>
+   <name type="string">PAN AM</name>
+   <texture>wings.png</texture>
+  </wings> 
+ </model> 
+</sim> 
+
+</PropertyList> 
