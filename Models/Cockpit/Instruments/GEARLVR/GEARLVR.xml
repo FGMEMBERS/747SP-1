@@ -9,7 +9,17 @@
 
 <PropertyList>
 
-<path>flapstack.ac</path>
+<path>GEARLVR.ac</path>
+
+	<animation>
+		<type>material</type>
+		<object-name>Gear.lever</object-name>
+		<emission>
+		<red>0.1</red>
+		<green>0.1</green>
+		<blue>0.1</blue>
+		</emission>
+	</animation>
 
 	<animation>
 		<name>flapstack</name>
