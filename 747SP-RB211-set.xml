@@ -10,7 +10,7 @@
 		<description>Boeing 747SP (RB211 engines)</description>
         <author>Joshua Davidson (it0uchpods/411), Martien van der P (3D), Alex Iannuzzi (Liveries)</author>
 		<status>alpha</status>
-		<aircraft-version>0.03</aircraft-version>
+		<aircraft-version>0.04</aircraft-version>
 
 		<flight-model>jsb</flight-model>
 		<aero>747SP-RB211</aero>

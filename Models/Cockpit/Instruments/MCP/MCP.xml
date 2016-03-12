@@ -81,8 +81,8 @@
 		<object-name>ATtoggle.001</object-name>
 		<condition>
 			<equals>
-				<property>/instrumentation/afds/ap-modes/speed-mode</property>
-				<value>SPD</value>
+				<property>autopilot/locks/speed</property>
+				<value>speed-with-throttle</value>
 			</equals>
 		</condition>
 	</animation>
@@ -91,27 +91,46 @@
 		<type>pick</type>
 		<object-name>AT.btn</object-name>
 		<object-name>ATtoggle.001</object-name>
-		<action>
-			<button>0</button>
-			<repeatable type="bool">false</repeatable>
-			<binding>
-				<command>nasal</command>
-				<script>Boeing757.afds.input(2,5);</script>
-			</binding>
-		</action>
+    <action>
+    <button>0</button>
+    <repeatable>true</repeatable>
+	<binding>
+	<command>property-assign</command>
+        <property>autopilot/locks/speed</property>
+	<value>speed-with-throttle</value>
+    </binding>
+    </action>
 	</animation>
-
+	
 	<animation>
-		<name>IAS/Mach toggle</name>
+		<name>AT OFF</name>
 		<type>pick</type>
 		<object-name>IasMach.btn</object-name>
 		<action>
 			<button>0</button>
-			<repeatable type="bool">false</repeatable>
-			<binding>
-				<command>property-toggle</command>
-	                        <property>instrumentation/afds/inputs/ias-mach-selected</property>
-			</binding>
+			  <repeatable>true</repeatable>
+	    <binding>
+	<condition>
+	<equals>
+	<property>autopilot/locks/speed</property>
+	<value>speed-with-throttle</value>
+	</equals>
+	</condition>
+	<command>property-assign</command>
+        <property>autopilot/locks/speed</property>
+	<value></value>
+    </binding>
+	    <binding>
+	<condition>
+	<equals>
+	<property>autopilot/locks/speed</property>
+	<value>speed-with-pitch</value>
+	</equals>
+	</condition>
+	<command>property-assign</command>
+        <property>autopilot/locks/speed</property>
+	<value></value>
+    </binding>
 		</action>
 	</animation>
 
@@ -784,7 +803,7 @@
 		</action>
 	</animation>
 
-	<!--animation>
+	<animation>
 		<name>Vertical speed hold button light</name>
 		<type>select</type>
 		<object-name>VS.toggle</object-name>
@@ -794,7 +813,7 @@
 				<value>vertical-speed-hold</value>
 			</equals>
 		</condition>
-	</animation-->
+	</animation>
 	<animation>
 		<name>Vertical speed hold button pick</name>
 		<type>pick</type>
@@ -963,10 +982,10 @@
 		<type>select</type>
 		<object-name>LOC.toggle</object-name>
 		<condition>
-			<equals>
-				<property>instrumentation/afds/ap-modes/roll-mode</property>
-				<value>LOC</value>
-			</equals>
+            <equals>
+                <property>/autopilot/locks/heading</property>
+                <value>nav1-hold</value>
+            </equals>
 		</condition>
 	</animation>
 	<animation>
@@ -974,19 +993,16 @@
 		<type>pick</type>
 		<object-name>LOC.btn</object-name>
 		<object-name>LOC.toggle</object-name>
-		<action>
-			<button>0</button>
-			<repeatable type="bool">false</repeatable>
-			<binding>
-				<command>nasal</command>
-				<script>Boeing757.afds.input(3,0);</script>
-			</binding>
-			<binding>
-                        <command>property-assign</command>
-                	        <property>instrumentation/nav/slaved-to-gps</property>
-        	                <value type="bool">false</value>
-	                </binding>
-		</action>
+        <action>
+            <button>0</button>
+	    <repeatable>true</repeatable>
+            <binding>
+		<command>property-cycle</command>
+                <property>/autopilot/locks/heading</property>
+		<value>nav1-hold</value>
+		<value>0</value>
+            </binding>
+        </action>
 	</animation>
 
 	<!-- Approach hold -->
@@ -995,10 +1011,10 @@
 		<type>select</type>
 		<object-name>APP.toggle</object-name>
 		<condition>
-			<equals>
-				<property>instrumentation/afds/ap-modes/pitch-mode</property>
-				<value>G/S</value>
-			</equals>
+            <equals>
+                <property>/autopilot/locks/altitude</property>
+                <value>gs1-hold</value>
+            </equals>
 		</condition>
 	</animation>
 	<animation>
@@ -1006,14 +1022,16 @@
 		<type>pick</type>
 		<object-name>APP.btn</object-name>
 		<object-name>APP.toggle</object-name>
-		<action>
-			<button>0</button>
-			<repeatable type="bool">false</repeatable>
-			<binding>
-				<command>nasal</command>
-				<script>Boeing757.afds.input(3,1);</script>
-			</binding>
-		</action>
+        <action>
+            <button>0</button>
+	    <repeatable>true</repeatable>
+            <binding>
+		<command>property-cycle</command>
+                <property>/autopilot/locks/altitude</property>
+		<value>gs1-hold</value>
+		<value>0</value>
+            </binding>
+        </action>
 	</animation>
 
 	<!-- Master arm -->
