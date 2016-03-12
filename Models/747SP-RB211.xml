@@ -1366,28 +1366,29 @@
   </axis>
  </animation>
 
- <animation>
-  <type>rotate</type>
-  <condition>
-   <less-than>
-    <property>position/altitude-agl-ft</property>        <!-- weight sensor -->
-    <value>30.0</value>
-   </less-than>
-  </condition>
-  <object-name>GearBodyLeftWheels</object-name>
-  <property>gear/gear[2]/steering-norm</property>
-  <factor>-13</factor>
-  <center>
-   <x-m>5.2655</x-m>
-   <y-m>-1.5</y-m>
-   <z-m>-2.48</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
+<animation>
+ <type>rotate</type>
+ <condition>
+  <less-than>
+   <property>position/altitude-agl-ft</property>
+   <!-- weight sensor -->
+   <value>30.0</value>
+  </less-than>
+ </condition>
+ <object-name>GearBodyLeftWheels</object-name>
+ <property>gear/gear[2]/steering-norm</property>
+ <factor>-13</factor>
+ <center>
+  <x-m>5.2655</x-m>
+  <y-m>-1.5</y-m>
+  <z-m>-2.48</z-m>
+ </center>
+ <axis>
+  <x>0</x>
+  <y>0</y>
+  <z>-1</z>
+ </axis>
+</animation>
 
  <animation>
   <type>translate</type>
@@ -1666,28 +1667,29 @@
   </axis>
  </animation>
 
- <animation>
-  <type>rotate</type>
-  <condition>
-   <less-than>
-    <property>position/altitude-agl-ft</property>        <!-- weight sensor -->
-    <value>30.0</value>
-   </less-than>
-  </condition>
-  <object-name>GearBodyRightWheels</object-name>
-  <property>gear/gear[3]/steering-norm</property>
-  <factor>-13</factor>
-  <center>
-   <x-m>5.2655</x-m>
-   <y-m>1.5</y-m>
-   <z-m>-2.48</z-m>
-  </center>
-  <axis>
-   <x>0</x>
-   <y>0</y>
-   <z>1</z>
-  </axis>
- </animation>
+<animation>
+ <type>rotate</type>
+ <condition>
+  <less-than>
+   <property>position/altitude-agl-ft</property>
+   <!-- weight sensor -->
+   <value>30.0</value>
+  </less-than>
+ </condition>
+ <object-name>GearBodyRightWheels</object-name>
+ <property>gear/gear[3]/steering-norm</property>
+ <factor>-13</factor>
+ <center>
+  <x-m>5.2655</x-m>
+  <y-m>1.5</y-m>
+  <z-m>-2.48</z-m>
+ </center>
+ <axis>
+  <x>0</x>
+  <y>0</y>
+  <z>-1</z>
+ </axis>
+</animation>
 
  <animation>
   <type>translate</type>
