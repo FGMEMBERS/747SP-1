@@ -35,6 +35,19 @@
 		</offsets>
 	</model>
 	
+		
+	<!-- GlarePanel -->
+	<model>
+		<name>GlarePanel</name>
+		<path>Aircraft/747SP/Models/Cockpit/Instruments/MCP/MCP.xml</path>
+		<offsets>
+		  <x-m> -19.245 </x-m>
+		  <y-m> 0 </y-m>
+		  <z-m> 3.0 </z-m>
+		  <pitch-deg>-6</pitch-deg>
+		</offsets>
+	</model>
+	
 	<!-- Captain's Instruments -->
 	<!-- Attitude -->
 	<model>
